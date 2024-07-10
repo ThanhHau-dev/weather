@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #67afd2, #246ca6);
+    color: white;
+
+}
+
+
+
+.header{
+    margin-top: 2%;
+}
+
+.btn2{
+    margin-top: 10%;
+}
+
+
+#btn_desktop{
+    display: none;
+}
+
+.main {
+    margin-top: 50px;
+    position: relative; 
+}
+
+.main_2{
+    margin-top: 10%;
+}
+
+
+.main_img_weather{
+    position: relative;
+}
+
+
+.main_img_weather_infor{
+    width: 30%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.main_img_weather_infor2{
+    position: absolute;
+    z-index: 2;
+    margin-top: 15%;
+
+}
+
+
+.main_1 h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+
+.main_2_btn{
+    border-radius: 60px;
+    background-color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 60%;
+}
+
+table{
+    margin-top: auto;
+    width: 100%;
+}
+
+table img{
+    width: 100%;
+}
+
+
+tr, td {
+    padding: 20px;
+}
+
+td {
+    width: 100px;
+}
+
+
+.footer p{
+    text-align: center;
+}
+
+
+
+/* response for mobile */
+
+@media only screen and (max-width: 450px) {
+
+    .header h2 {
+        text-align: center;
+    }
+
+    
+    /* chatgpt */
+
+    /* Đảm bảo rằng .navbar sử dụng flexbox để bố trí các phần tử con */
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử con quấn xuống dòng nếu cần thiết */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  }
+  
+  /* Media query cho màn hình nhỏ hơn hoặc bằng 450px */
+  
+    .navbar {
+      flex-direction: row; /* Đảm bảo các phần tử nằm trên cùng một hàng */
+    }
+    
+   
+    .navbar button {
+      flex: 1; /* Đảm bảo các phần tử có cùng kích thước */
+      max-width: 20%; /* Đảm bảo các phần tử không vượt quá 100% chiều rộng */
+    }
+
+    .navbar input {
+        max-width: 70%;
+    }
+  
+  /*kết thúc chat gpt  */
+
+  #btn_desktop{
+    display: block;
+}
+
+.btn2{
+    display: none;
+}
+
+
+    .main_1 h1{
+        font-size: 50px;
+    }
+
+    .main_img_weather_infor{
+        width: 90%;
+        margin-top: 50%;
+    }
+
+    .main_img_weather_infor2{
+        margin-top: 70%;
+    }
+
+    .main_2_btn{
+        margin-top: 80%;
+        font-size: 12px;
+        margin-left: 60%;
+    }
+
+
+    table img{
+        width: 60%;
+    }
+
+    table{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
